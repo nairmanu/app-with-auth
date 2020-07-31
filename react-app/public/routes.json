@@ -4,6 +4,22 @@
       "route": "/*",
       "serve": "/index.html",
       "statusCode": 200
+    },
+    {
+      "route": "/.auth/login/twitter",
+      "statusCode": "404"
+    },
+    {
+      "route": "/.auth/login/githubb",
+      "statusCode": "404"
+    },
+    {
+      "route": "/.auth/login/google",
+      "statusCode": "404"
+    },
+    {
+      "route": "/.auth/login/facebook",
+      "statusCode": "404"
     }
   ]
 }
